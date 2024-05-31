@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+.playlist1
+{
+    font-family: 'Open Sans', sans-serif;
+    padding: 4%;
+    font-size: 14px;
+}
+.playlist1 p
+{
+    border-bottom: 3px solid red;
+    display: initial;
+}
+.playlist2
+{
+    font-family: 'Open Sans', sans-serif;
+    height: 80%;
+    min-width: 80%;
+}
+.playlist2 img
+{
+    height: 85%;
+    width: 85%;
+    padding: 3% 0;
+    border-radius:50px ;
+}
+.playlist2 h3
+{
+    font-size: 20px;
+}
+#playlist input[type="text"]
+{
+    width:70%;
+    height: 60px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 30px;
+    /* border-color: #f6efe8; */
+    background-color: #f6efe8;
+    outline: none;
+}
+#playlist button
+{
+    width: 30%;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 10%;
+    /* border-color: #f57ca4; */
+    background-color: #f57ca4;
+}
+.playlist3
+{
+    height: 100%;
+    margin: 8% 0;
+}
+.playlist3 h1{
+    font-size: 3.5rem;
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+.signup
+{
+    padding: 2% 0;
+    background-image: url("./bg.jpg");
+    background-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-attachment:fixed;
+}
+.signup input
+{
+    margin: 20px 0;
+    height: 50px;
+    padding-left: 30px;
+    width: 300px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+}
+.signup input::placeholder
+{
+    color: rgb(79, 162, 82);
+}
+.bg_sign
+{
+    background-color: rgb(129, 186, 129);
+    display: inline-block;
+    height: auto;
+    /* width: 30%; */
+    padding: 2% 3%;
+    border-radius: 40px;
+}
+#check
+{
+    height: 20px;
+    width: 20px;
+}
+#btn_sign
+{
+    background-color:rgb(154, 239, 154);
+    height: 50px;
+    width: 180px;
+    outline: none;
+    border: none;
+    color: rgb(79, 162, 82);
+    border-radius: 30px;
+}
+.signup span
+{
+    text-decoration: underline;
+    cursor: pointer;
+    color:black;    
+}
+

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+.nav
+{
+    font-family: 'Open Sans', sans-serif;
+    width: 90%;
+    /* border: 3px solid rebeccapurple; */
+    padding: 10px 0;
+}
+#create
+{
+    color: rgb(235, 73, 100);
+}

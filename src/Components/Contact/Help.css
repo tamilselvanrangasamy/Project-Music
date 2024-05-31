@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+.help
+{
+    background-image: url('./bg1.jpg');
+    background-size:cover;
+    padding: 4% 0;
+    color: white;
+}
+.help p
+{
+    width: 80%;
+}
+.help img
+{
+    height: 300px;
+    width: 300px;
+}

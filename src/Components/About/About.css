@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+.about
+{
+    height: auto;
+    width: auto;
+    font-family: 'Open Sans', sans-serif;
+    margin: 8% 0;
+}
+.about_main
+{
+    padding: 5% 0;
+    color: white;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+.about_main h1
+{
+    font-size: 4rem;
+    color: #b7c3e0;
+}
+.about img
+{
+    height: 100%;
+    width: 100%;
+}
+.about1
+{
+    height: auto;
+    min-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    padding: 3% 0;
+    background-color: black;
+}
+.about1 h1
+{
+    color: aliceblue;
+    font-size: 50px;
+    border-bottom: 2px solid goldenrod;
+    display: inline-block;
+    margin: 2%;
+}
+.about1 img
+{
+    height: 70%;
+    width: 70%;
+} 
+.about1 img:hover
+{
+    animation-name: about;
+    animation-duration: 2.6s;
+    animation-iteration-count: infinite;
+}
+@keyframes about
+{
+    0%
+    {
+        scale:1;
+    }
+    50%
+    {
+        scale: 1.1;
+    }
+    100%
+    {
+        scale: 1;
+    }
+}

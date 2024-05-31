@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+#footer_list
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 30%;
+}
+.footer
+{
+    background-color: #0a183d;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5% 0;
+    min-width: 100%;
+}
+#footer_list>li>img
+{
+    filter: invert(100%);
+}
+#footer_list_1>li
+{
+    list-style: none;
+    font-size: 14px;
+    line-height: 30px;
+    color: white;
+}
+#footer_list_1
+{
+    font-size: 20px;
+    color:#fc0254 ;
+}
+

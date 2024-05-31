@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+.news
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
+    height:100%;
+    padding: 4% 0;
+    line-height: 30px;
+    text-align: justify;
+    /* overflow: hidden; */
+}
+.news img
+{
+    width: 100%;
+}
+.news h6
+{
+    color: #fc0254;
+}
+.news pre
+{
+    color: rgb(202, 198, 198);
+}
+.news pre >span
+{
+    color: rgb(10, 10, 30);
+}
